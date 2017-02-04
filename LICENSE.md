@@ -16,3 +16,4 @@ for any purpose, even commercially.
 
 **ShareAlike** — If you remix, transform, or build upon the material, you must distribute your contributions under the **same license** as the original.
 
+![OSHW logo](https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Open-source-hardware-logo.svg/512px-Open-source-hardware-logo.svg.png)
