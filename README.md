@@ -12,4 +12,4 @@ The undetermined step is active when the probe can't figure out if the signal pr
 
 The ".sch"(schematics) and ".brd"(board layout) files are in **Autodesk Eagle 8.0** format.
 
-The PCB can be made of a single sided copper board. Components packages are 1206, 0805, SOT14 and SOT23-3.
+The PCB can be made of a single sided copper board. Components packages are 1206, 0805, SO14 and SOT23-3.
