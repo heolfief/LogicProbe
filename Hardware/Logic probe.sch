@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.0.0">
+<eagle version="8.0.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -6418,28 +6418,28 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="-27.305" y="0" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center">&gt;NAME</text>
 <text x="-21.971" y="0" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center">&gt;VALUE</text>
 </package>
-<package name="BATTCON_12MM_PTH">
-<description>&lt;h3&gt;12mm Coin Cell Battery (CR1225) Holder - PTH&lt;/h3&gt;
-&lt;p&gt;This is a through hole 12mm coin cell battery holder. Holds battery in place with friction. Metal housing is +, PCB pad underneath is -.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://cdn.sparkfun.com/datasheets/Prototyping/KEY-3001.pdf"&gt;Datasheet&lt;/a&gt;&lt;/p&gt;
+<package name="BATTCON_16MM_PTH">
+<description>&lt;h3&gt;16mm Coin Cell Battery (CR1225) Holder - PTH&lt;/h3&gt;
+&lt;p&gt;This is a through hole 16mm coin cell battery holder. Holds battery in place with friction. Metal housing is +, PCB pad underneath is -.&lt;/p&gt;
+
 &lt;h4&gt;Devices Using&lt;/h4&gt;
 &lt;ul&gt;&lt;li&gt;BATTERY&lt;/li&gt;&lt;/ul&gt;</description>
-<wire x1="-6.35" y1="-3.81" x2="-3.81" y2="-6.35" width="0.2032" layer="21"/>
-<wire x1="-3.81" y1="-6.35" x2="3.81" y2="-6.35" width="0.2032" layer="21"/>
-<wire x1="3.81" y1="-6.35" x2="6.35" y2="-3.81" width="0.2032" layer="21"/>
-<wire x1="6.35" y1="-3.81" x2="6.35" y2="-2.54" width="0.2032" layer="21"/>
-<wire x1="-6.35" y1="-3.81" x2="-6.35" y2="-2.54" width="0.2032" layer="21"/>
-<wire x1="-6.35" y1="2.54" x2="-6.35" y2="4.064" width="0.2032" layer="21"/>
-<wire x1="6.35" y1="2.54" x2="6.35" y2="4.064" width="0.2032" layer="21"/>
+<wire x1="-8.35" y1="-3.31" x2="-3.31" y2="-8.35" width="0.2032" layer="21"/>
+<wire x1="-3.31" y1="-8.35" x2="3.15" y2="-8.35" width="0.2032" layer="21"/>
+<wire x1="3.15" y1="-8.35" x2="8.35" y2="-3.15" width="0.2032" layer="21"/>
+<wire x1="8.35" y1="-3.15" x2="8.35" y2="-2.04" width="0.2032" layer="21"/>
+<wire x1="-8.35" y1="-3.31" x2="-8.35" y2="-2.04" width="0.2032" layer="21"/>
+<wire x1="-8.35" y1="2.04" x2="-8.35" y2="3.064" width="0.2032" layer="21"/>
+<wire x1="8.35" y1="2.04" x2="8.35" y2="3.064" width="0.2032" layer="21"/>
 <wire x1="-3.175" y1="5.588" x2="3.175" y2="5.588" width="0.2032" layer="21" curve="102.56384"/>
-<wire x1="-6.35" y1="4.064" x2="-3.175" y2="5.588" width="0.2032" layer="21" curve="-123.398919"/>
-<wire x1="6.35" y1="4.064" x2="3.175" y2="5.588" width="0.2032" layer="21" curve="128.77667"/>
-<pad name="VCC@2" x="-6.604" y="0" drill="1.8542" shape="square"/>
-<pad name="VCC@1" x="6.604" y="0" drill="1.8542" shape="square"/>
-<smd name="GND" x="0" y="0" dx="9" dy="9" layer="1" roundness="100" cream="no"/>
+<wire x1="-8.35" y1="3.064" x2="-3.175" y2="5.588" width="0.2032" layer="21" curve="-123.398919"/>
+<wire x1="8.35" y1="3.064" x2="3.175" y2="5.588" width="0.2032" layer="21" curve="128.77667"/>
+<pad name="VCC@2" x="-8.604" y="0" drill="1.8542" shape="square"/>
+<pad name="VCC@1" x="8.604" y="0" drill="1.8542" shape="square"/>
+<smd name="GND" x="0" y="0" dx="10" dy="10" layer="1" roundness="100" cream="no"/>
 <circle x="0" y="0" radius="1" width="2" layer="31"/>
-<text x="0" y="-6.477" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-6.223" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center">&gt;VALUE</text>
+<text x="-2" y="-6.477" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center">&gt;NAME</text>
+<text x="-2" y="-6.223" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center">&gt;VALUE</text>
 </package>
 <package name="BATTCON_20MM">
 <description>&lt;h3&gt;20mm Coin Cell Battery (CR2032) Holder - SMD (Single Pad)&lt;/h3&gt;
@@ -6914,9 +6914,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </technology>
 </technologies>
 </device>
-<device name="-12MM_PTH" package="BATTCON_12MM_PTH">
+<device name="-16MM_PTH" package="BATTCON_16MM_PTH">
 <connects>
-<connect gate="G$1" pin="+" pad="VCC@1"/>
+<connect gate="G$1" pin="+" pad="VCC@1 VCC@2" route="any"/>
 <connect gate="G$1" pin="-" pad="GND"/>
 </connects>
 <technologies>
@@ -15070,7 +15070,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="SUPPLY3" library="SparkFun-PowerSymbols" deviceset="VCC" device=""/>
 <part name="SUPPLY1" library="SparkFun-PowerSymbols" deviceset="VCC" device=""/>
 <part name="GND2" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="BT1" library="SparkFun-Batteries" deviceset="BATTERY" device="-12MM_PTH" value="CR1632"/>
+<part name="BT1" library="SparkFun-Batteries" deviceset="BATTERY" device="-16MM_PTH" value="CR1632"/>
 <part name="R1" library="resistor" deviceset="R-EU_" device="R1206" value="47k"/>
 <part name="C2" library="rcl" deviceset="C-EU" device="C0805" value="0.1u"/>
 <part name="GND4" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
